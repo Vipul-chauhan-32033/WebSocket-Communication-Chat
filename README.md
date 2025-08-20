@@ -19,20 +19,20 @@ Supports user authentication, instant messaging, presence channels (who’s onli
 
 # 📂 Project Structure
 
-app/
-├── Events/MessageCreated.php
-├── Http/Controllers/ChatController.php
-├── Http/Controllers/MessageController.php
-├── Listeners/SendNewMessageNotification.php
-└── Models/Message.php
-database/
-└── migrations/create_messages_table.php
-resources/
-├── views/chat.blade.php
-└── js/bootstrap.js (Echo config)
-routes/
-├── web.php
-└── channels.php
+app/ <br>
+├── Events/MessageCreated.php <br>
+├── Http/Controllers/ChatController.php <br>
+├── Http/Controllers/MessageController.php <br>
+├── Listeners/SendNewMessageNotification.php <br>
+└── Models/Message.php <br>
+database/ <br>
+└── migrations/create_messages_table.php <br>
+resources/ <br>
+├── views/chat.blade.php <br>
+└── js/bootstrap.js (Echo config) <br>
+routes/ <br>
+├── web.php <br>
+└── channels.php <br>
 
 ---
 
